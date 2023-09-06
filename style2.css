@@ -1,0 +1,82 @@
+*{
+    margin: o;
+    box-sizing: border-box;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#string-val{
+    width: 50%;
+    height: 40px;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    box-sizing: border-box;
+    border: solid 2px #000;
+}
+
+#string {
+    width: 50%;
+    height: 80px;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+    border: solid 2px #000;
+}
+
+P {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 600;
+}
+
+button {
+    width: 50%;
+    height: 50px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background: #14b652;
+    border: 2px solid #000;
+    margin-bottom: 5px;
+    margin-top: 7px;
+}
+p span {
+  color: red;
+  font-size: 12px;
+  position: relative;
+  margin-left: 10px;
+  margin-top: 0;
+  padding: 0;
+  transform:translateY(50px);
+  display: none;
+}
+button a {
+    display: flex;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+}
+
+@media (max-width: 480px) {
+  #string-val, #string {
+    width: 70%;
+  }
+  
+  button {
+    width: 70%;
+  }
+}
