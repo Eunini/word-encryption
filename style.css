@@ -1,50 +1,46 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: o;
+    box-sizing: border-box;
     font-family: 'Bodoni Moda', serif;
     font-family: 'Roboto Mono', monospace;
 }
 
-.body {
-    background: "image/glass.jpg";
-    background-position: center;
-    background-size: 200px 200px;
-}
-
-.instruction-container {
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-    height: 80vh;
-    width: 60%;
+#string-val{
+    width: 50%;
+    height: 40px;
+    display: flex;
     margin: auto;
+    text-align: center;
     justify-content: center;
     align-items: center;
-    padding-top: 8%;
-    margin-top: 3%;
-    margin-bottom: 8px;
-    border-radius: 10px;
-}
-.instruction-container p {
-  text-align: center;
-  font-weight: 600;
-}
-.instruction-container ul {
-    display: block;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    padding: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: solid 2px #000;
 }
 
-.instruction-container ul li {
-    display: block;
+#string {
+    width: 50%;
+    height: 80px;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+    border: solid 2px #000;
+}
+
+P {
+    text-align: center;
     padding: 10px;
     font-size: 20px;
-    font-weight: 500;
+    font-family: 600;
 }
 
-.instruction-container button {
-    width: 40%;
+button {
+    width: 50%;
     height: 50px;
     display: flex;
     margin: auto;
@@ -55,34 +51,32 @@
     margin-bottom: 5px;
     margin-top: 7px;
 }
-
-.instruction-container button a {
+p span {
+  color: red;
+  font-size: 12px;
+  position: relative;
+  margin-left: 10px;
+  margin-top: 0;
+  padding: 0;
+  transform:translateY(50px);
+  display: none;
+}
+button a {
     display: flex;
     font-size: 18px;
     font-weight: 500;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     text-decoration: none;
     color: #000;
     padding: 10px;
 }
 
 @media (max-width: 480px) {
-  .instruction-container {
-    width: 80%;
-    height: 95vh;
+  #string-val, #string {
+    width: 70%;
   }
-  .instruction-container ul li {
-      font-size: 16px;
-      padding: 12px;
-    }
-  .instruction-container button {
-    width: 50%;
-    padding: 7px
-  }
-  .instruction-container button a {
-    font-size: 14px;
-    padding: 7px;
-    font-weight: 400;
+  
+  button {
+    width: 70%;
   }
 }
