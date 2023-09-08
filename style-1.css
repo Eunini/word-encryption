@@ -5,6 +5,9 @@
     font-family: 'Roboto Mono', monospace;
 }
 
+html,body { 
+    priority: 1 !important;
+}
 .body {
     background: "image/glass.jpg";
     background-position: center;
